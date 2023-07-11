@@ -88,21 +88,24 @@ a, ul{
 }
 
 .lower {
+    display: flex;
+    flex-flow: column;
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 100px;
-    gap: 20px;
-    padding-inline: 500px;
-}
 
-.quote{
+
+}
+.quote {
+    width: 900px;
+    align-self: center;
+}
+.quote-text{
     font-size: 36px;
     font-style: italic;
 
 }
 
 .author {
-    display: flex;
+    text-align: end;
     font-weight: bold;
-    justify-content: end;
 }
