@@ -21,6 +21,7 @@ a, ul{
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding-bottom: 50px;
 
 }
 
@@ -42,6 +43,8 @@ a, ul{
     color:#F9FAF8;
     background-color: #1f2937;
     font-size: 48px;
+    padding-bottom: 50px;
+    
 }
 
 .main img {
@@ -59,6 +62,7 @@ a, ul{
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .middle-text {
@@ -98,11 +102,13 @@ a, ul{
 .quote {
     width: 900px;
     align-self: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 .quote-text{
     font-size: 36px;
-    font-style: italic;
-
+    font-style: italic
 }
 
 .author {
