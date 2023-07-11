@@ -84,4 +84,5 @@ a, ul{
 .text{
     width: 150px;
     text-align: center;
+    color: gray;
 }
