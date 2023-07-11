@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+
+
+}
+
+.logo a{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-split a{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px;
+}
+
+a, ul{
+    text-decoration:none;
+}
