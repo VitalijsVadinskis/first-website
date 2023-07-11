@@ -115,3 +115,24 @@ a, ul{
     text-align: end;
     font-weight: bold;
 }
+
+
+
+.bottom {
+display: flex;
+flex-flow: column;
+color: #e5e7eb;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+    width: 900px;
+    height: 40px;
+    padding: 40px;
+    margin: 80px;
+}
+
