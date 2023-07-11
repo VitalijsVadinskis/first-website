@@ -1,15 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
+a, ul{
+    text-decoration:none;
+    padding: 0;
+}
 
+.container {
+    display: flex;
+    flex-flow: column;
 
+}
+.header, .main {
+    padding-inline: 180px
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-
 
 }
 
@@ -25,6 +36,23 @@ body {
     margin: 8px;
 }
 
-a, ul{
-    text-decoration:none;
+.main {
+    display: flex;
+    justify-content: space-between;
+    color:#F9FAF8;
+    background-color: #1f2937;
+    font-size: 48px;
+
 }
+
+.main img {
+    width: 500px;
+    height: auto;
+}
+
+.main p {
+    width:500px;
+    display: flex;
+    font-size: 18px;;
+}
+
