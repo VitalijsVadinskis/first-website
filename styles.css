@@ -166,3 +166,10 @@ a, ul{
     background-color: #3882F6;
     padding: 5px 20px;
 }
+/* footer */
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    padding: 30px;
+}
