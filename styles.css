@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -13,7 +13,7 @@ a, ul{
     flex-flow: column;
 
 }
-.header, .main {
+.header, .main, .lower {
     padding-inline: 180px
 }
 .header {
@@ -85,4 +85,24 @@ a, ul{
     width: 150px;
     text-align: center;
     color: gray;
+}
+
+.lower {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px;
+    gap: 20px;
+    padding-inline: 500px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
 }
